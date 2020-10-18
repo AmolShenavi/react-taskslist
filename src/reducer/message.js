@@ -5,7 +5,7 @@ const intialState = {
 };
 
 function messageReducer(state = intialState, action) {
-  console.log(state, action);
+  // console.log(state, action);
 //  @AmolShenavi
 switch (action.type) {
     case TYPED_MESSAGE: {
